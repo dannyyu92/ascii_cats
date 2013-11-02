@@ -1,0 +1,2 @@
+module CatGeneratorHelper
+end
