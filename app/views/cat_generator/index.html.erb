@@ -1,10 +1,15 @@
 <div class="jumbotron">
-	<h1>Welcome to ASCII Cats!</h1>
+	<h1>Welcome to ASCII Cats!<br />
+		<small>
+			Refresh for a new image of a cat!
+		</small>
+	</h1>
 </div>
 
-<div class="row">
-	<div class="col-md-12">
-			<%= raw @cat %>
-		</div>
-	</div>
-</div>
+<table style="margin-left:auto;margin-right:auto;">
+    <tr>
+        <td>
+        	<%= raw @cat %>
+      	</td>
+    </tr>
+</table>
