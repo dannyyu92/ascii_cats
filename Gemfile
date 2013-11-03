@@ -8,6 +8,7 @@ gem 'bootstrap-sass'
 # Use sqlite3 as the database for Active Record
 group :production do
   gem 'pg', '0.17.0'
+  gem 'rails_12factor'
 end        
 
 group :development do
