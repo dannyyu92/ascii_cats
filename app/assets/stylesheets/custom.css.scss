@@ -1,12 +1,21 @@
 @import "bootstrap";
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
 
-/* Typography */
-h1 {
-	text-align:center; 
+/* Universal */
+* {
+	font-family: "Raleway Dots";
 }
 
-.centered {
-	margin: 0 auto;
+
+.jumbotron {
+	margin-top:30px;
+	height:200px;
+	h1 {
+		font-family: "Raleway Dots";
+		font-weight: bold;
+		text-align:center; 
+		margin-top:0px;
+	}
 }
 
 pre {
