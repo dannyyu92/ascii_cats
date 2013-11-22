@@ -9,9 +9,21 @@
 <table style="margin-left:auto;margin-right:auto;">
     <tr>
         <td>
-        	<%= raw @cat %>
+          <div id= "cat-image">
+            <%= raw getNewCat() %>
+        	</div>
       	</td>
     </tr>
 </table>
+
+<%= javascript_tag do %>
+  var catArray = new Array();
+    catArray = <%= raw @cats %>;
+<% end %>
+
+<div style="text-align: center">
+  <button type="button" class="btn btn-info" id="new-cat">Click for new cat</button>
+</div>
+
 
 <p style="text-align: right">*Cats from http://asciiworld.com</p>
